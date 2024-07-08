@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Courgette&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jersey+10&family=Jersey+20+Charted&family=Jersey+25+Charted&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+		 link href=" https://myfonts.ru/myfonts ? fonts = barcelona - graffiti-bombing " rel = " hoja de estilo" type="text/css" /rel="stylesheet">
+		 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<title>Very Indifferente Person</title>
+		<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0pc;
+			box-sizing: border-box;
+		}
+		html{
+			scroll-behavior: smooth;
+		}
+		html,body{
+			height: 100%;
+		}
+		header{
+			width: 100%;
+			background: black;
+			height: 120px;
+			line-height: 120px;
+			
+
+			
+		}
+
+		footer {
+			background: black;
+			height: 120px;
+			width: 100%;
+			margin: 0px;
+			padding: 0px;
+			text-align: center;
+			position: absolute; /*Centra la imagen del footer*/
+
+			
+           
+		}
+
+		nav{
+			width: 100%;
+			background: #000;
+			height: 50px;
+		}
+
+		section{
+			width: 100%;
+			background: #E65E00;
+			
+		}
+		section h1{
+				color:white;
+			
+			font-family: "Barcelona Graffiti Bombing";
+		}
+
+		
+		p{
+			 font-family: Helvetica,
+		}
+
+/*---------Menu de navegacion -----------------------------*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ font-family: 'Barcelona Graffiti Bombing';
+ font-size: 20px;
+
+
+
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #F00701;
+}
+
+/*Estilos del boton para ir arriba*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+/* ----------CABEZAL Y PIE -----------*/
+
+.logo{
+			width: 100%;
+		background-color: black;
+					color: black;
+			text-align: center;
+	
+			margin: auto;
+			
+			
+			
+			}
+			.logo img{
+				width: 220px;
+	
+
+			}
+			
+/* ----------Banner ----------------*/
+			#banner{
+				background-image: linear-gradient(rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.6)), url("imagen1.jpg");
+				  height: 100%;
+				  background-position: center;
+				  background-repeat: no-repeat;
+				  background-size: cover;
+				  position: relative;
+				  margin: auto;
+				  border: 0.1px solid black;
+			}
+			.logovip{
+				margin-top: -200px;
+				margin-right: 800px;
+				
+				margin-left:120px;
+
+							}
+			.texto_vip1{
+				font-size: 12px;
+				background: rgba(38, 38, 38, 0.7);
+				color: white;
+				padding: 20px;
+				margin-left: 700px;
+				margin-right: 80px;
+				margin-top: 70px;
+			}
+			.texto_vip2{
+				font-size: 12px;
+				background: rgba(38, 38, 38, 0.7);
+				color: white;
+			
+				margin-left: 700px;
+				margin-right: 80px;
+				margin-top: 40px;
+				padding: 7px;
+			}
+
+
+/* ----------BANKSY ----------------*/
+			#banksy{
+				background-image: linear-gradient(rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.6)), url("imagen2.jpg");
+				  height: 150%;
+				  width: 100%;
+				  background-position: center;
+				  background-repeat: no-repeat;
+				  background-size: cover;
+				  position: relative;
+			}
+			#titulo1banksy{
+				font-size: 78px;
+				margin-left:100px;
+				margin-right: 800px;
+				padding-top: 50px;
+				margin-top: 	0px;
+
+				
+
+			}
+		.foto_banksy{
+				width: 30%;
+				height: 30%;
+				margin-left: 80px;
+				margin-right: 800px;
+				
+			}
+
+			#texto_banksy{
+				margin-left: 459px;
+				margin-top: -335px ;
+				margin-right: 420px;
+				background: rgba(38, 38, 38, 0.7);
+				color: white;
+			
+				font-size: 9.66px;
+				padding-left: 10px;
+				padding-right: 5px;
+				padding-top: 5px;
+				padding-bottom: 11.1px;
+			}
+	/*-------------------Slide opcion 1	
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px;
+  width: 30%;
+  height: 45%;
+  float: right;
+  margin-right: 10px;
+  margin-top: -450px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+----------------*/
+
+#obras{
+	font-size: 90px;
+	float:right;
+	
+	margin-right: 100px;
+	float:right;
+	margin-left: 400px;
+	margin-top: -450px;
+}
+/*-------------Slide opcion 2---------------*/
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container1 {
+  width: 350px;
+  height: 333px;
+  position: relative;
+  float: right;
+  margin-top: -335px;
+  margin-right: 30px;
+ 
+}
+.slideshow-container2 {
+  width: 700px;
+  height: 500px;
+  margin-left: 70px;
+  position: relative;
+  float: left;
+    margin-top: 150px;
+}
+
+.slideshow-container3 {
+  width: 700px;
+  height: 500px;
+  margin-left: 70px;
+  margin-bottom: 550px;
+ 
+  position: relative;
+  float: left;
+    
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+	.fade {
+		animation-name: 	fade;
+ animation-duration	: 	1.5s;
+  
+}
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+.slidetext {
+					  color: #f2f2f2;
+					  font-size: 12px;
+					  position: absolute		;
+					  top: 100%;
+					  align-self: 	center	;
+					  margin-top: -30px;
+
+					}
+
+
+				
+
+/*---------------------Intervencion-----------------------------*/
+
+#intervencion{
+				height: 100%;
+				  width: 100%;
+				background-image: linear-gradient(rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.6)), url("imagen7.jpg");
+				  
+				  background-position: center;
+				  background-repeat: no-repeat;
+				  background-size: cover;
+				  position: relative;
+				  margin-top: 30px;
+
+				}
+
+				#intevenciontitulo{
+					
+					float: right;
+					margin-top: 90px;
+					margin-right: 50px;
+					font-size: 62px;
+
+				}
+
+				#texto_intervencion{
+					float: right;
+				margin-left: 800px;
+				margin-top: -450px ;
+				margin-right: 40px;
+				margin-bottom: 0px;
+				background: rgba(38, 38, 38, 0.7);
+				color: white;
+				font-size: 9.66px;
+				padding-left: 10px;
+				padding-right: 5px;
+				padding-top: 5px;
+				padding-bottom: 11.1px;
+			}
+
+
+ 
+
+
+
+
+
+			
+/*----------Packaging-----------*/
+#packaging{
+				height: 100%;
+				  width: 100%;
+				background-image: linear-gradient(rgba(1, 1, 1, 0.2), rgba(1, 1, 1, 0.6)), url("imagen12.jpg");
+				  
+				  background-position: center;
+				  background-repeat: no-repeat;
+				  background-size: cover;
+				  position: relative;
+				  margin-top: 0px;
+
+				 
+
+				}
+
+#packagingtop{
+	margin-top: 0px;
+		padding-top: 50px;
+		margin-left: 200px;
+		font-size: 100px;
+}
+#texto_packaging{
+					float: right;
+				margin-left: 800px;
+				margin-top: -1050px ;
+				margin-right: 40px;
+				margin-bottom: 0px;
+				background: rgba(38, 38, 38, 0.7);
+				color: white;
+				font-size: 9.66px;
+				padding-left: 10px;
+				padding-right: 5px;
+				padding-top: 5px;
+				padding-bottom: 11.1px;
+			}
+
+				/*Regla de medios*/
+			@media screen and (max-width:800px){  /*Tablet*/
+				
+				 ul{
+					width: 800px;
+				
+				}
+				li{
+					width: 197px;
+				}
+				
+
+
+				.logovip {
+						
+						width: 500px;
+				position: absolute;
+				bottom: 330px;/* Ajusta la posicion del identificador grafico */
+				text-align: center;
+
+				}
+				.logovip img{
+					width: 80%;
+				}
+				.texto_vip1{
+					float: right; /*flota a la izquierda*/
+					height: 150px;
+					width: 700px;
+					font-size: 10px;
+					margin-top: 220px;
+					position: static;
+					padding: 10px;
+					text-align:justify ;
+					margin-right: 35px;
+
+				}
+			.texto_vip2{
+				float: right;
+					height: 40px;
+					width: 700px;
+					font-size: 10px;
+					margin-top: 90px;
+					padding: 10px;
+					text-align:justify ;
+					margin-right: 35px;
+			}
+				#banksy{
+					position: absolute;
+					margin-bottom: 0px;
+
+				}
+				#banksy background-image{
+					height: 10%;
+					width: 100%;
+				}
+
+			.foto_banksy{
+				margin-left: 450px;
+						width: 300px;
+				margin-top: -30px;
+				margin-right: 10px;
+				padding: 0px;	
+				text-align: center;
+			}
+			
+
+			#texto_banksy{
+				float: left;
+				margin-left: 20px;
+					
+					height: 265px;
+					width: 420px;
+					margin-top: -265px;
+					font-size: 8.5px;
+			}
+			
+			.slideshow-container1{
+			width: 300px;
+			height: 300px;
+			margin-top: -210px;
+			margin-right: 30px;
+			}
+
+				.prev, .next {
+font-size: 10px;
+				}
+
+					#obras{
+						font-size: 100px;
+						margin-top: 90px;
+							margin-right: 450px;
+						
+					}
+
+					#intevenciontitulo, #packagingtop{
+						
+						text-align: center;
+						float: left;
+					margin-left: 200px;
+					margin-top: 20px;
+						}
+			#intervencion{
+				margin-top: 390px; /*Hace que esta seccion no se vaya arriba de la de arriba */
+			}
+
+			.slideshow-container2{
+				width: 80%;
+				margin-top: 0px;
+			}
+				#texto_intervencion{
+					
+					margin-top: -56px;
+					margin-right: 65px;
+					width: 630px;
+					float: right;
+
+				}
+				 #packagingtop{
+						
+						text-align: center;
+						float: left;
+					margin-left: 181px;
+					margin-top: -20px;
+						}
+
+				#texto_packaging{
+					
+					font-size: 	8px;
+					margin-top: -529px;
+        margin-right: 26px;
+					width: 700px;
+					
+
+				}
+				.slidetext{
+					margin-top: -99px;
+				}
+
+			#packaging{
+				margin-top: 0px; /*Hace que esta seccion no se vaya arriba de la de arriba */
+			}
+
+			.slideshow-container3{
+				width: 70%;
+				margin-top: -50px;
+				height: 351px;
+				margin-left: 	100px;
+			}
+
+			@media screen and (max-width:600px){ /*Celular----------------------------*/
+				
+								ul{
+					width: 600px;
+				
+				}
+				li{
+					width: 150px;
+				}
+				
+
+
+				.logovip {
+		
+						width: 500px;
+				
+				bottom: 330px;/* Ajusta la posicion del identificador grafico */
+				text-align: center;
+				margin-left: 	20px;
+				}
+				.logovip img{
+					width: 70%;
+				}
+				        .texto_vip1 {
+            height: 142px;
+            width: 570px;
+            font-size: 9px;
+            margin-top: 220px;
+            position: static;
+            padding: 10px;
+            text-align: justify;
+            margin-right: 6px;
+
+				}
+			.texto_vip2 {
+            float: right;
+            height: 25px;
+            width: 579px;
+            font-size: 9px;
+            margin-top: 90px;
+            padding: 6px;
+            text-align: justify;
+            margin-right: -3px;
+			}
+				#banksy{
+					position: absolute;
+					margin-bottom: 0px;
+
+				}
+				#banksy background-image{
+					height: 10%;
+					width: 100%;
+				}
+
+				#titulo1banksy	{
+					margin-left: 	60px;
+				}
+
+			.foto_banksy {
+            margin-left: 322px;
+            width: 254px;
+            margin-top: -30px;
+            margin-right: 10px;
+            padding: 0px;
+            text-align: center;
+			}
+			
+
+			        #texto_banksy {
+            float: left;
+            margin-left: 20px;
+            height: 229px;
+            width: 293px;
+            margin-top: -225px;
+            font-size: 7px;
+            text-align: justify;
+          }
+			
+			.slideshow-container1 {
+            width: 261px;
+            height: 294px;
+            margin-top: -210px;
+            margin-right: 6px;
+			}
+
+				.prev, .next {
+font-size: 10px;
+				}
+
+					        #obras {
+            font-size: 82px;
+            margin-top: 90px;
+            margin-right: 338px;
+						
+					}
+
+					#intevenciontitulo, #packagingtop {
+            text-align: center;
+            float: left;
+            margin-left: 133px;
+            margin-top: 11px;
+        }
+    }
+			#intervencion{
+				margin-top: 390px; /*Hace que esta seccion no se vaya arriba de la de arriba */
+			}
+
+			.slideshow-container2{
+				width: 80%;
+				margin-top: 0px;
+			}
+				        #texto_intervencion {
+            width: inherit;
+            margin-top: -121px;
+            /* margin-right: 4px; */
+            margin-right: 0px;
+            float: right;
+        
+
+				}
+				 #packagingtop {
+        text-align: center;
+        float: left;
+        margin-left: 105px;
+        margin-top: -20px;
+    }
+
+				#texto_packaging {
+        font-size: 8px;
+        margin-top: -585px;
+        margin-right: 29px;
+        width: 527px;
+    }
+				.slidetext {
+            margin-top: -189px;
+        }
+
+			#packaging{
+				margin-top: 0px; /*Hace que esta seccion no se vaya arriba de la de arriba */
+			}
+
+			.slideshow-container3 {
+        width: 70%;
+        margin-top: -50px;
+        height: 325px;
+        margin-left: 92px;
+    }
+
+			}
+
+		</style>
+	</head>
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	<header>
+
+		<div class="logo"><a href="#banner"> <img src="logo.png" style="position: relative;"> </a></div>
+	</header>
+	<nav>
+		<ul> 
+		  <li><a  href="#banner">V.I.P</a></li>
+		  <li><a href="#banksy">BANKSY</a></li>
+		  <li><a href="#intervencion">INTERVENCION</a></li>
+		  <li><a href="#packaging">PACKAGING</a></li>
+		  
+		 </li>
+		</ul>
+		
+	</nav>
+
+		<section id="banner">
+		
+		<p class="texto_vip1">
+			VIP es un proyecto elaborado por estudiantes de segundo año de Diseño Gráfico en la Universidad de la Empresa. <br>
+		Inspirados en el estilo del mitico artista callejero Banksy, buscamos tratar una problematica local y exponerla con el estilo de diseñador. Buscamos resaltar la indiferencia de la sociedad hacia las personas en situación de calle mediante una dicotomía impactante: la comodidad de un lujoso restaurante con sus respectivos alimentos frente a la miseria de aquellos que no tienen absolutamente nada. Esta representación subraya cómo solemos hacer la vista gorda ante el sufrimiento ajeno, incluso cuando está a nuestro lado. A través de esta obra, buscamos sensibilizar y provocar una reflexión sobre nuestra capacidad de ignorar la realidad que enfrentan muchas personas a diario. Nuestro objetivo es despertar la empatía y fomentar un cambio en la manera en que percibimos y respondemos a la vulnerabilidad y la exclusión social.
+
+
+		</p>
+		<div class = "logovip">
+		<img src="logo.png">
+		</div>
+		
+		
+		<p class="texto_vip2">
+			La exposición estará disponible a partir del 9 de julio en el segundo piso de la Universidad
+ubicado en la sede del centro.
+		</p>
+	</section>
+
+
+	<section id="banksy">
+		<h1 id="titulo1banksy">BANKSY</h1>
+		 <div>
+			<img src="imagen3.jpg" class="foto_banksy">
+			<p id="texto_banksy"> Banksy es un artista callejero y grafitero contemporáneo cuya 
+identidad sigue siendo en gran medida un misterio. Su obra es 
+reconocida a nivel mundial por su estilo distintivo y su comentario
+social y político incisivo. Se hizo famoso en la escena del arte
+urbano en la década de 1990 en Bristol, Inglaterra, y desde
+entonces ha ganado notoriedad internacional por sus obras de 
+arte callejero satírico, a menudo acompañadas de mensajes 
+políticos, sociales o culturales.
+
+<br><br>
+Lo interesante de Banksy es que su identidad permanece
+desconocida, lo que ha generado un aura de misterio en torno a 
+su persona. Ha mantenido su anonimato incluso cuando su trabajo
+ha alcanzado precios récord en subastas de arte y ha sido exhibido
+en galerías de renombre.
+<br><br>
+Además de su arte callejero, Banksy ha incursionado en otras 
+formas de expresión artística, como la pintura, la escultura y la 
+instalación. Su trabajo ha sido objeto de  controversia y debate, ya
+que desafía las normas del arte convencional y a menudo aborda 
+temas sensibles como la política, la guerra, la injusticia social y el
+capitalismo.
+<br><br>
+Su impacto en la cultura contemporánea es innegable, ya que ha 
+inspirado a  numerosos artistas y ha llevado el arte callejero a un
+público más amplio, desafiando las fronteras entre el arte de la calle
+y el arte de galería.
+			</p>
+		</div>
+<h1 id="obras">OBRAS</h1>
+
+		<div class="slideshow-container1">
+
+			<div class="mySlides1 fade">
+    <img src="imagen4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1 fade">
+    <img src="imagen5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1 fade">
+    <img src="imagen6.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1 fade">
+    <img src="imagen8.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1 fade">
+    <img src="imagen9.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1 fade">
+    <img src="imagen10.jpg" style="width:100%">
+  </div>
+    <div class="mySlides1 fade">
+    <img src="imagen11.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+			
+
+			
+			
+
+
+
+	<!--	<h2>Image Gallery With Horizontal Scroll</h2>
+<p>Use the horizontal scrollbar to see the other images.</p>
+
+<div class="scroll-container">
+  <img src="imagen4.jpg" alt="Cinque Terre" width="600" height="400">
+  <img src="imagen5.jpg" alt="Forest" width="600" height="400">
+  <img src="imagen6.jpg" alt="Northern Lights" width="600" height="400">
+  <img src="imagen3.jpg" alt="Mountains" width="600" height="400">
+</div>
+
+<p>Note that the images are of same size.</p>
+	!-->
+	<section id="intervencion">
+		<h1 id="intevenciontitulo">INTERVENCION</h1>
+			<!-- intento de slide2!-->
+			
+<div class="slideshow-container2">
+  <div class="mySlides2 fade">
+  	<div class="slidetext">Espacio a intervenir</div>
+    <img src="intervencion1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2 fade">
+  	<div class="slidetext">Analisis de dimensiones y medidas</div>
+    <img src="intervencion2.jpg" style="width:100%">
+
+  </div>
+
+  <div class="mySlides2 fade">
+<div class="slidetext">Primer foto montaje para empezar a imaginar como quedaria</div>
+    <img src="intervencion3.jpg"  style="width:100%">
+
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+  <p id="texto_intervencion"> La intervención busca reflejar cómo la sociedad trata a estas personas.<br><br>
+De la misma manera en que escondemos la basura bajo la alfombra para 
+fingir que es invisible y no moleste, hacemos lo mismo con ellos. Somos 
+indiferentes ante su situación, ni siquiera los miramos a los ojos, como si 
+creyéramos que si los ignoramos, su realidad desaparecerá. Sin embargo,
+como dice el refrán, 'ojos que no ven, corazón que no siente', ignorar su 
+existencia no elimina su sufrimiento ni resuelve los problemas que 
+enfrentan. Esta falta de atención y empatía perpetúa su situación de 
+vulnerabilidad y exclusión, negándoles no solo la ayuda y el apoyo que 
+necesitan, sino también reflejando una falta de conciencia y solidaridad
+por parte de la sociedad en su conjunto. Reconocer la humanidad y 
+dignidad de todas las personas, independientemente de su situación 
+socioeconómica, es crucial. El verdadero cambio solo puede surgir 
+cuando nos comprometemos a abordar las causas subyacentes de la 
+injusticia social y trabajamos hacia soluciones inclusivas y equitativas.
+			</p>
+
+		</section>
+	<section id="packaging">
+		<h1  id="packagingtop">Packaging</h1>
+			
+<div class="slideshow-container3">
+  <div class="mySlides3 fade">
+  	<div class="slidetext"></div>
+    <img src="comidas1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides3 fade">
+  	<div class="slidetext"></div>
+    <img src="comidas2.jpg" style="width:100%">
+
+  </div>
+
+  <div class="mySlides3 fade">
+<div class="slidetext"></div>
+    <img src="comidas3.jpg"  style="width:100%">
+
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+<p id="texto_packaging">
+Al diseñar el packaging, nuestro primer paso fue reflexionar sobre qué alimentos servir que pudieran transmitir una imagen de lujo y altos estándares. Queríamos seleccionar productos que no solo fueran exquisitos, sino que también simbolizaran la opulencia y el refinamiento que suelen asociarse con una experiencia gastronómica de primer nivel. Después de considerar diversas opciones, nos decidimos por tres elecciones.
+<br><br>
+En primer lugar, optamos por servir vino tinto, acompañado de copas elegantes y un decantador sofisticado. El vino tinto es una bebida que tradicionalmente se asocia con la riqueza y la sofisticación, y su presentación en copas de cristal y decantador añade un toque de distinción que realza la experiencia.
+<br><br>
+En segundo lugar, elegimos una picada de quesos y fiambres. Esta selección de embutidos y quesos finos no solo es deliciosa, sino que también evoca una sensación de indulgencia y abundancia. La variedad y calidad de los productos incluidos en la picada reflejan un estilo de vida privilegiado, donde se valora y se disfruta cada detalle gastronómico.
+<br><br>
+Como tercera opción, para el postre, seleccionamos una caja de masitas. Las masitas, con su variedad de sabores y texturas, completan la experiencia culinaria de una manera dulce y elegante. Cada bocado de estas delicadas piezas de repostería representa el cuidado y la atención que se pone en ofrecer una comida de alta calidad.
+<br><br>
+Con esta selección de alimentos y su presentación, buscamos crear una dicotomía impactante que muestre la profunda contradicción existente en nuestra sociedad. Mientras una persona puede estar disfrutando de estos alimentos lujosos y deleitándose con cada detalle de esta experiencia gastronómica, al lado puede haber alguien que no ha comido en todo el día, enfrentando la cruda realidad de la pobreza y la exclusión.
+<br><br>
+Nuestra intención es utilizar esta contradicción para despertar la conciencia y provocar una reflexión profunda sobre la desigualdad y la indiferencia que a menudo mostramos hacia aquellos que viven en situaciones de extrema necesidad. A través de esta representación, esperamos sensibilizar a la audiencia y fomentar un cambio en la manera en que percibimos y respondemos a la vulnerabilidad social, alentando a una mayor empatía y solidaridad hacia quienes más lo necesitan.
+			</p>
+		</section>
+
+<footer>
+		<div class="logo"> <a href="#banner"><img src="logo.png" ></a></div>
+	</footer>
+
+<!------------------------------JAVASCRIPT----------------->
+<script type="text/javascript">
+	
+	// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+//slide imagenes//
+let slideIndex = [1,1,1];
+let slideId = ["mySlides1", "mySlides2","mySlides3"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+
+
+</script>
+	</body>
+	</html>
